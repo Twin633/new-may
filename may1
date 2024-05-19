@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int calculate_square(int number) {
+    return number * number;
+}
+
+// Example usage
+int main() {
+    int result = calculate_square(5);  // returns 25
+    printf("%d", result);
+    return 0;
+}
